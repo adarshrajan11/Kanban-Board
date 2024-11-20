@@ -1,0 +1,19 @@
+.task {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    cursor: grab;
+    transition: background-color 0.2s ease;
+}
+
+.task:active {
+    cursor: grabbing;
+}
+
+.task:hover {
+    background-color: #f8f9fa;
+}
